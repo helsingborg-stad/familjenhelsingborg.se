@@ -65,6 +65,16 @@ if (file_exists(__DIR__ . '/config/developer.php')) {
     require_once 'config/developer.php';
 }
 
+/**
+ * Active directory settings
+ *
+ * Enable login trough active directory
+ */
+if (file_exists(__DIR__ . '/config/ad.php')) {
+    require_once 'config/ad.php';
+}
+
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
