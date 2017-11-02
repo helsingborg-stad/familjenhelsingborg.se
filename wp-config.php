@@ -18,12 +18,12 @@
  * @package WordPress
  */
 
-require_once 'config/content.php';
-require_once 'config/database.php';
-require_once 'config/salts.php';
-require_once 'config/plugins.php';
-require_once 'config/update.php';
-require_once 'config/upload.php';
+require_once __DIR__ . 'config/content.php';
+require_once __DIR__ . 'config/database.php';
+require_once __DIR__ . 'config/salts.php';
+require_once __DIR__ . 'config/plugins.php';
+require_once __DIR__ . 'config/update.php';
+require_once __DIR__ . 'config/upload.php';
 
 /**
  * Cookie settings
@@ -32,7 +32,7 @@ require_once 'config/upload.php';
  * cookie.php, then go ahead and edit the configurations
  */
 if (file_exists(__DIR__ . '/config/cookie.php')) {
-    require_once 'config/cookie.php';
+    require_once __DIR__ . 'config/cookie.php';
 }
 
 /**
@@ -42,7 +42,7 @@ if (file_exists(__DIR__ . '/config/cookie.php')) {
  * cache.php, then go ahead and edit the configurations
  */
 if (file_exists(__DIR__ . '/config/cache.php')) {
-    require_once 'config/cache.php';
+    require_once __DIR__ . 'config/cache.php';
 }
 
 /**
@@ -52,7 +52,7 @@ if (file_exists(__DIR__ . '/config/cache.php')) {
  * multisite.php, then go ahead and edit the configurations
  */
 if (file_exists(__DIR__ . '/config/multisite.php')) {
-    require_once 'config/multisite.php';
+    require_once __DIR__ . 'config/multisite.php';
 }
 
 /**
@@ -62,7 +62,7 @@ if (file_exists(__DIR__ . '/config/multisite.php')) {
  * put your dev-stuff and overrides inside.
  */
 if (file_exists(__DIR__ . '/config/developer.php')) {
-    require_once 'config/developer.php';
+    require_once __DIR__ . 'config/developer.php';
 }
 
 /**
@@ -71,7 +71,16 @@ if (file_exists(__DIR__ . '/config/developer.php')) {
  * Enable login trough active directory
  */
 if (file_exists(__DIR__ . '/config/ad.php')) {
-    require_once 'config/ad.php';
+    require_once __DIR__ . 'config/ad.php';
+}
+
+/**
+ * Google captcha keys
+ *
+ * Enables support for captcha functionality
+ */
+if (file_exists(__DIR__ . '/config/captcha.php')) {
+    require_once __DIR__ . 'config/captcha.php';
 }
 
 
