@@ -11,6 +11,10 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/Modularity.git"
         },
         {
@@ -147,6 +151,7 @@
         "helsingborg-stad/modularity-form-builder": ">=1.0.0",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
+        "helsingborg-stad/familjenhelsingborg": ">=1.0.0",
         "wpackagist-plugin/varnish-http-purge": "^4.1.1",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/wp-nested-pages": "^1.5.4",
