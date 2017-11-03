@@ -152,7 +152,7 @@
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
         "helsingborg-stad/familjenhelsingborg": ">=1.0.0",
-        "wpackagist-plugin/varnish-http-purge": "^4.1.1",
+        "wpackagist-plugin/varnish-http-purge": "4.2.0",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/wp-nested-pages": "^1.5.4",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
