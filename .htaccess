@@ -57,6 +57,14 @@ RewriteRule ^wp-signup.php /wp/wp-signup.php [L,R=301]
 # Redirect wp-admin
 RewriteRule ^/wp-admin/admin-ajax.php /wp/wp-admin/admin-ajax.php [L,R=301]
 
+# Permalinks
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
+RewriteRule . index.php [L]
+
 </IfModule>
 
 # Force use of SSL (CLIENT)
