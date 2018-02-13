@@ -17,7 +17,7 @@
  * Load webfonts for municipio theme.
  */
 
-define('WEB_FONT', 'Arimo');
+define('WEB_FONT', 'EB Garamond');
 
 /**
  * Enable ssl proxy mode in ssl plugin
