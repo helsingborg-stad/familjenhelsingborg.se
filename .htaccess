@@ -34,6 +34,31 @@ deny from 46.161.14.99
   RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 </IfModule>
 
+# Redirect from old site
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  #Living
+  RedirectMatch 302 (?i)/living/(.*) https://familjenhelsingborg.se/bo-och-flytta-hit/$1
+  RedirectMatch 302 (?i)/Omradeslista/(.*) https://familjenhelsingborg.se/bo-och-flytta-hit/hitta-ditt-dromboende/$1
+  RedirectMatch 302 (?i)/Arbeta/(.*) https://familjenhelsingborg.se/bo-och-flytta-hit/karriar/$1
+  RedirectMatch 302 (?i)/bo-och-flytta-hit/karriar/Traineeprogrammet/(.*) https://familjenhelsingborg.se/bo-och-flytta-hit/karriar/familjen-helsingborgs-traineeprogram/$1
+
+  #Visit
+  RedirectMatch 302 (?i)/visit/(.*) https://familjenhelsingborg.se/uppleva-och-gora/$1
+
+  #About
+  RedirectMatch 302 (?i)/familjen/(.*) https://familjenhelsingborg.se/om-familjen-helsingborg/$1
+
+  #Bussiness
+  RedirectMatch 302 (?i)/business/(.*) https://familjenhelsingborg.se/foretagare/$1
+  RedirectMatch 302 (?i)/foretagare/etablering/(.*) https://familjenhelsingborg.se/foretagare/etablera-dig-har/$1
+
+  #General
+  RedirectMatch 302 (?i)/sv(.*) https://familjenhelsingborg.se$1
+
+</IfModule>
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /wp/
