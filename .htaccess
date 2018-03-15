@@ -16,7 +16,6 @@ deny from 46.161.14.99
   RewriteCond %{HTTPS} off
   RewriteCond %{HTTP_HOST} ^www\.(.*)$
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 </IfModule>
 
 # Force SSL only
@@ -25,7 +24,6 @@ deny from 46.161.14.99
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 </IfModule>
 
 # Remove www only ()
