@@ -55,8 +55,8 @@ deny from 46.161.14.99
   #General
   RedirectMatch 302 (?i)/sv/(.*) https://familjenhelsingborg.se/$1
 
-  #exact redirects
-  Redirect 301 /sv/living/Utbildning/Vuxenutbildning-/Aktuellautbildningar/ https://familjenhelsingborg.se/utbildning/utbildning-for-vuxna/aktuella-utbildningar/
+  #Exact redirects
+  RedirectMatch 302 (?i)/Vuxenutbildning-/Aktuellautbildningar/(.*) https://familjenhelsingborg.se/utbildning/utbildning-for-vuxna/aktuella-utbildningar/$1
 
 </IfModule>
 
