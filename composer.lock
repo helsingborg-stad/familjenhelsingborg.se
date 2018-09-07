@@ -952,16 +952,16 @@
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
-            "version": "1.2.131",
+            "version": "1.2.132",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git",
-                "reference": "ea0e16d5b9abb7f5f6e6f52dd4d4cc3c9ac9864b"
+                "reference": "46dc107e475e12ff77e989642147d09fb4e9c270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/ea0e16d5b9abb7f5f6e6f52dd4d4cc3c9ac9864b",
-                "reference": "ea0e16d5b9abb7f5f6e6f52dd4d4cc3c9ac9864b",
+                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/46dc107e475e12ff77e989642147d09fb4e9c270",
+                "reference": "46dc107e475e12ff77e989642147d09fb4e9c270",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +997,7 @@
                 }
             ],
             "description": "Familjen Helsingborg - Municipio child theme",
-            "time": "2018-09-07T12:20:20+00:00"
+            "time": "2018-09-07T13:30:56+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
@@ -2727,7 +2727,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip",
-                "reference": null,
+                "reference": "tags/4.4.12",
                 "shasum": null
             },
             "require": {
@@ -2747,7 +2747,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1525625897",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -2767,7 +2767,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/elasticpress.2.4.zip",
-                "reference": null,
+                "reference": "tags/2.4",
                 "shasum": null
             },
             "require": {
@@ -2787,7 +2787,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.zip",
-                "reference": null,
+                "reference": "tags/3.3",
                 "shasum": null
             },
             "require": {
@@ -2807,7 +2807,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/redirection.3.2.1.zip",
-                "reference": null,
+                "reference": "tags/3.2.1",
                 "shasum": null
             },
             "require": {
@@ -2827,7 +2827,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.5.zip",
-                "reference": null,
+                "reference": "tags/1.3.5",
                 "shasum": null
             },
             "require": {
@@ -2847,7 +2847,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/search-by-algolia-instant-relevant-results.2.9.3.zip",
-                "reference": null,
+                "reference": "tags/2.9.3",
                 "shasum": null
             },
             "require": {
@@ -2867,7 +2867,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/stream.3.2.3.zip",
-                "reference": null,
+                "reference": "tags/3.2.3",
                 "shasum": null
             },
             "require": {
@@ -2887,7 +2887,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.1.zip",
-                "reference": null,
+                "reference": "tags/1.3.1",
                 "shasum": null
             },
             "require": {
@@ -2907,7 +2907,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.2.0.zip",
-                "reference": null,
+                "reference": "tags/4.2.0",
                 "shasum": null
             },
             "require": {
@@ -2927,7 +2927,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.1.7.1.zip",
-                "reference": null,
+                "reference": "tags/1.7.1",
                 "shasum": null
             },
             "require": {
