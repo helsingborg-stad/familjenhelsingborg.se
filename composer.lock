@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b28755b466a2071ee55ae8f40e3ac14",
+    "content-hash": "1bf05c796081fc12bc080fe2d10a2e7f",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -952,16 +952,16 @@
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git",
-                "reference": "d0f3d8b9086e9511c711ded58d8921a642794888"
+                "reference": "605cde94b0684aeca4dfb4dbfa7f12ed22805586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/d0f3d8b9086e9511c711ded58d8921a642794888",
-                "reference": "d0f3d8b9086e9511c711ded58d8921a642794888",
+                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/605cde94b0684aeca4dfb4dbfa7f12ed22805586",
+                "reference": "605cde94b0684aeca4dfb4dbfa7f12ed22805586",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +997,7 @@
                 }
             ],
             "description": "Familjen Helsingborg - Municipio child theme",
-            "time": "2018-11-12T22:38:45+00:00"
+            "time": "2018-11-21T12:08:44+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
@@ -1060,6 +1060,38 @@
             ],
             "description": "Plugin to integrate Google Analytics and display simple statistics.",
             "time": "2018-08-01T12:08:10+00:00"
+        },
+        {
+            "name": "helsingborg-stad/import-rss-feed",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/import-rss-feed.git",
+                "reference": "effd13a9bfe6a8498002a82fef8610fa31937a54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/import-rss-feed/zipball/effd13a9bfe6a8498002a82fef8610fa31937a54",
+                "reference": "effd13a9bfe6a8498002a82fef8610fa31937a54",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Probably the last Wordpress RSS importer. Import items from RSS feed to any post type.",
+            "time": "2018-11-21T12:15:01+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -2012,16 +2044,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.34.1",
+            "version": "1.35.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "19201b87f7dba2a7cbf1cccdf0e1da13c04ee9c9"
+                "reference": "5c05a2be472b22f63291d192410df9f0e0de3b19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/19201b87f7dba2a7cbf1cccdf0e1da13c04ee9c9",
-                "reference": "19201b87f7dba2a7cbf1cccdf0e1da13c04ee9c9",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5c05a2be472b22f63291d192410df9f0e0de3b19",
+                "reference": "5c05a2be472b22f63291d192410df9f0e0de3b19",
                 "shasum": ""
             },
             "require": {
@@ -2029,8 +2061,11 @@
                 "symfony/translation": "~2.6 || ~3.0 || ~4.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2",
                 "phpunit/phpunit": "^4.8.35 || ^5.7"
+            },
+            "suggest": {
+                "friendsofphp/php-cs-fixer": "Needed for the `composer phpcs` command. Allow to automatically fix code style.",
+                "phpstan/phpstan": "Needed for the `composer phpstan` command. Allow to detect potential errors."
             },
             "type": "library",
             "extra": {
@@ -2063,7 +2098,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-11-08T13:33:47+00:00"
+            "time": "2018-11-14T21:55:58+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -2345,16 +2380,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -2388,7 +2423,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "psr/simple-cache",
