@@ -952,16 +952,16 @@
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git",
-                "reference": "605cde94b0684aeca4dfb4dbfa7f12ed22805586"
+                "reference": "d50b5f84a43c64a69266bfeebc1aada72ffb7963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/605cde94b0684aeca4dfb4dbfa7f12ed22805586",
-                "reference": "605cde94b0684aeca4dfb4dbfa7f12ed22805586",
+                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/d50b5f84a43c64a69266bfeebc1aada72ffb7963",
+                "reference": "d50b5f84a43c64a69266bfeebc1aada72ffb7963",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +997,7 @@
                 }
             ],
             "description": "Familjen Helsingborg - Municipio child theme",
-            "time": "2018-11-21T12:08:44+00:00"
+            "time": "2018-11-21T13:31:00+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
@@ -1159,16 +1159,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.9.1",
+            "version": "2.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "7e686a0dd5324e8f47d052649188b1842ca0f3ed"
+                "reference": "8b22c740b1fdb3a41eff05bd1679a4b8d7b80ad4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7e686a0dd5324e8f47d052649188b1842ca0f3ed",
-                "reference": "7e686a0dd5324e8f47d052649188b1842ca0f3ed",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8b22c740b1fdb3a41eff05bd1679a4b8d7b80ad4",
+                "reference": "8b22c740b1fdb3a41eff05bd1679a4b8d7b80ad4",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2018-11-12T14:45:05+00:00"
+            "time": "2018-11-21T13:20:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
