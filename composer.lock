@@ -1159,16 +1159,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.9.4",
+            "version": "2.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "2857c0b088008ac033ca85b27c9d3f379f0d9434"
+                "reference": "94ae1bac6b217fa986417ef13a70ca5da525e7e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/2857c0b088008ac033ca85b27c9d3f379f0d9434",
-                "reference": "2857c0b088008ac033ca85b27c9d3f379f0d9434",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/94ae1bac6b217fa986417ef13a70ca5da525e7e2",
+                "reference": "94ae1bac6b217fa986417ef13a70ca5da525e7e2",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2018-11-21T13:48:38+00:00"
+            "time": "2018-11-21T14:50:32+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
