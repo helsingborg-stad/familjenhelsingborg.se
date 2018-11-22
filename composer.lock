@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "1bf05c796081fc12bc080fe2d10a2e7f",
@@ -952,16 +952,16 @@
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
-            "version": "2.0.2",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git",
-                "reference": "d50b5f84a43c64a69266bfeebc1aada72ffb7963"
+                "reference": "d9514100aeb013d5b29b0e0be5eec2237a924cac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/d50b5f84a43c64a69266bfeebc1aada72ffb7963",
-                "reference": "d50b5f84a43c64a69266bfeebc1aada72ffb7963",
+                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/d9514100aeb013d5b29b0e0be5eec2237a924cac",
+                "reference": "d9514100aeb013d5b29b0e0be5eec2237a924cac",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +997,7 @@
                 }
             ],
             "description": "Familjen Helsingborg - Municipio child theme",
-            "time": "2018-11-21T13:31:00+00:00"
+            "time": "2018-11-22T09:42:18+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
