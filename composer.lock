@@ -1391,16 +1391,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.22.17",
+            "version": "1.22.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7e5e62b69b77a28e5be0b3508b0d06e4a7dc7138"
+                "reference": "c91812c7d4723dbfefdb5dd341ce3df3ee77f657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7e5e62b69b77a28e5be0b3508b0d06e4a7dc7138",
-                "reference": "7e5e62b69b77a28e5be0b3508b0d06e4a7dc7138",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c91812c7d4723dbfefdb5dd341ce3df3ee77f657",
+                "reference": "c91812c7d4723dbfefdb5dd341ce3df3ee77f657",
                 "shasum": ""
             },
             "require": {
@@ -1435,7 +1435,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2018-11-12T22:39:52+00:00"
+            "time": "2018-11-22T09:28:07+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2044,16 +2044,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.35.1",
+            "version": "1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "5c05a2be472b22f63291d192410df9f0e0de3b19"
+                "reference": "f5e9fa283fa389ffa49e58391a02f063dcdd1815"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5c05a2be472b22f63291d192410df9f0e0de3b19",
-                "reference": "5c05a2be472b22f63291d192410df9f0e0de3b19",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f5e9fa283fa389ffa49e58391a02f063dcdd1815",
+                "reference": "f5e9fa283fa389ffa49e58391a02f063dcdd1815",
                 "shasum": ""
             },
             "require": {
@@ -2098,7 +2098,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-11-14T21:55:58+00:00"
+            "time": "2018-11-16T11:47:11+00:00"
         },
         {
             "name": "philo/laravel-blade",
