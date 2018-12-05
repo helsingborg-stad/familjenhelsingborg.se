@@ -952,16 +952,16 @@
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git",
-                "reference": "d9514100aeb013d5b29b0e0be5eec2237a924cac"
+                "reference": "caf777b0ff1296a0ca1ddd5ef563d7a20e1a967d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/d9514100aeb013d5b29b0e0be5eec2237a924cac",
-                "reference": "d9514100aeb013d5b29b0e0be5eec2237a924cac",
+                "url": "https://api.github.com/repos/helsingborg-stad/familjenhelsingborg/zipball/caf777b0ff1296a0ca1ddd5ef563d7a20e1a967d",
+                "reference": "caf777b0ff1296a0ca1ddd5ef563d7a20e1a967d",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +997,7 @@
                 }
             ],
             "description": "Familjen Helsingborg - Municipio child theme",
-            "time": "2018-11-22T09:42:18+00:00"
+            "time": "2018-12-05T09:05:43+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
