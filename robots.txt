@@ -2,5 +2,3 @@ User-agent: *
 Disallow: /wp/wp-admin/
 Allow: /wp/wp-admin/admin-ajax.php
 Disallow: /event/
-
-Sitemap: https://familjenhelsingborg.se/sitemap.xml
