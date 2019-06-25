@@ -1386,7 +1386,7 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.24.2",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
