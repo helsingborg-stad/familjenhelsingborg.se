@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aristath/kirki",
-            "version": "v3.0.44",
+            "version": "v3.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aristath/kirki.git",
-                "reference": "0ad720aad498ab984acdd6ef29dde426bd00058c"
+                "reference": "5045850cfdfd319c9354fec46c333a140509b098"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aristath/kirki/zipball/0ad720aad498ab984acdd6ef29dde426bd00058c",
-                "reference": "0ad720aad498ab984acdd6ef29dde426bd00058c",
+                "url": "https://api.github.com/repos/aristath/kirki/zipball/5045850cfdfd319c9354fec46c333a140509b098",
+                "reference": "5045850cfdfd319c9354fec46c333a140509b098",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "customizer",
                 "wordpress"
             ],
-            "time": "2019-06-24T21:32:08+00:00"
+            "time": "2019-09-01T06:56:49+00:00"
         },
         {
             "name": "composer/installers",
@@ -294,16 +294,16 @@
         },
         {
             "name": "google/apiclient",
-            "version": "v2.2.3",
+            "version": "v2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "4bfd3edc21cceaf45fc216a4196e1993cf7a89eb"
+                "reference": "d6c7563bdf88d6a0719ea63e21c74dc86032364e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/4bfd3edc21cceaf45fc216a4196e1993cf7a89eb",
-                "reference": "4bfd3edc21cceaf45fc216a4196e1993cf7a89eb",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/d6c7563bdf88d6a0719ea63e21c74dc86032364e",
+                "reference": "d6c7563bdf88d6a0719ea63e21c74dc86032364e",
                 "shasum": ""
             },
             "require": {
@@ -318,6 +318,8 @@
             },
             "require-dev": {
                 "cache/filesystem-adapter": "^0.3.2",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.2",
                 "phpunit/phpunit": "~4.8.36",
                 "squizlabs/php_codesniffer": "~2.3",
                 "symfony/css-selector": "~2.1",
@@ -349,20 +351,20 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-05-21T18:06:55+00:00"
+            "time": "2019-08-19T18:09:46+00:00"
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.110",
+            "version": "v0.112",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "9d9e0a4e180cf09a52ab04535ca4f669031f8c54"
+                "reference": "0cc6d74aa99f5af8385c7b87599b97460e036dc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/9d9e0a4e180cf09a52ab04535ca4f669031f8c54",
-                "reference": "9d9e0a4e180cf09a52ab04535ca4f669031f8c54",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/0cc6d74aa99f5af8385c7b87599b97460e036dc2",
+                "reference": "0cc6d74aa99f5af8385c7b87599b97460e036dc2",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +388,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-08-17T00:23:23+00:00"
+            "time": "2019-08-31T00:23:10+00:00"
         },
         {
             "name": "google/auth",
@@ -1164,16 +1166,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.11.12",
+            "version": "2.11.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "8bd49ef0767f6ee9620d82bebc0ab66144ac02fe"
+                "reference": "f1d3098bff6d91d9a85dcf0f6d46afc225f7acdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8bd49ef0767f6ee9620d82bebc0ab66144ac02fe",
-                "reference": "8bd49ef0767f6ee9620d82bebc0ab66144ac02fe",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f1d3098bff6d91d9a85dcf0f6d46afc225f7acdb",
+                "reference": "f1d3098bff6d91d9a85dcf0f6d46afc225f7acdb",
                 "shasum": ""
             },
             "require": {
@@ -1205,7 +1207,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2019-05-23T08:27:27+00:00"
+            "time": "2019-09-05T07:58:52+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -1396,16 +1398,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.27.9",
+            "version": "1.28.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "af1e5dcfe059451be32757006c0ff7d135be62c1"
+                "reference": "9e94c4fcfe8486ac64fd5413d80dfe1262db8174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/af1e5dcfe059451be32757006c0ff7d135be62c1",
-                "reference": "af1e5dcfe059451be32757006c0ff7d135be62c1",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9e94c4fcfe8486ac64fd5413d80dfe1262db8174",
+                "reference": "9e94c4fcfe8486ac64fd5413d80dfe1262db8174",
                 "shasum": ""
             },
             "require": {
@@ -1440,7 +1442,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2019-07-11T09:47:39+00:00"
+            "time": "2019-09-04T09:46:39+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -1555,7 +1557,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.8.33",
+            "version": "v5.8.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1600,7 +1602,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.8.33",
+            "version": "v5.8.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1644,7 +1646,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.8.33",
+            "version": "v5.8.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1689,7 +1691,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.8.33",
+            "version": "v5.8.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1741,16 +1743,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.8.33",
+            "version": "v5.8.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "7aabcab4634a1c7865fa6acb6b1b810cf4b699ea"
+                "reference": "e63a495d3bf01654f70def1046fb925c4bb56506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/7aabcab4634a1c7865fa6acb6b1b810cf4b699ea",
-                "reference": "7aabcab4634a1c7865fa6acb6b1b810cf4b699ea",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/e63a495d3bf01654f70def1046fb925c4bb56506",
+                "reference": "e63a495d3bf01654f70def1046fb925c4bb56506",
                 "shasum": ""
             },
             "require": {
@@ -1798,11 +1800,11 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-08-11T12:48:29+00:00"
+            "time": "2019-09-03T16:36:47+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "v5.8.33",
+            "version": "v5.8.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -1851,22 +1853,22 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.10",
+            "version": "4.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef"
+                "reference": "8b4fce1e9db12588e7e4daf7fdf01fc4e0a60605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fa10404bdcf045704f7ff519f483af6acd4cf5ef",
-                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8b4fce1e9db12588e7e4daf7fdf01fc4e0a60605",
+                "reference": "8b4fce1e9db12588e7e4daf7fdf01fc4e0a60605",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.10",
+                "johnpbloch/wordpress-core": "4.9.11",
                 "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -1879,34 +1881,34 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13T01:13:10+00:00"
+            "time": "2019-09-05T01:16:49+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.10",
+            "version": "4.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313"
+                "reference": "b759041f9d1130bc262d33f55c30863a632d4a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/06dad62aa1ab1ef215034fb07d6aec4a68072313",
-                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b759041f9d1130bc262d33f55c30863a632d4a21",
+                "reference": "b759041f9d1130bc262d33f55c30863a632d4a21",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.10"
+                "wordpress/core-implementation": "4.9.11"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1919,14 +1921,14 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13T01:13:06+00:00"
+            "time": "2019-09-05T01:16:45+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -2057,16 +2059,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.23.1",
+            "version": "2.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "767617a047e5b8b8b3b0b6023a2650847ed7df02"
+                "reference": "934459c5ac0658bc765ad1e53512c7c77adcac29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/767617a047e5b8b8b3b0b6023a2650847ed7df02",
-                "reference": "767617a047e5b8b8b3b0b6023a2650847ed7df02",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/934459c5ac0658bc765ad1e53512c7c77adcac29",
+                "reference": "934459c5ac0658bc765ad1e53512c7c77adcac29",
                 "shasum": ""
             },
             "require": {
@@ -2120,7 +2122,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-08-17T13:57:34+00:00"
+            "time": "2019-08-31T16:37:55+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -2592,16 +2594,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.3.3",
+            "version": "v4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "527887c3858a2462b0137662c74837288b998ee3"
+                "reference": "afcdea44a2e399c1e4b52246ec8d54c715393ced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/527887c3858a2462b0137662c74837288b998ee3",
-                "reference": "527887c3858a2462b0137662c74837288b998ee3",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/afcdea44a2e399c1e4b52246ec8d54c715393ced",
+                "reference": "afcdea44a2e399c1e4b52246ec8d54c715393ced",
                 "shasum": ""
             },
             "require": {
@@ -2644,20 +2646,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2019-07-23T11:21:36+00:00"
+            "time": "2019-08-20T14:27:59+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.3",
+            "version": "v4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "9638d41e3729459860bb96f6247ccb61faaa45f2"
+                "reference": "86c1c929f0a4b24812e1eb109262fc3372c8e9f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/9638d41e3729459860bb96f6247ccb61faaa45f2",
-                "reference": "9638d41e3729459860bb96f6247ccb61faaa45f2",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/86c1c929f0a4b24812e1eb109262fc3372c8e9f2",
+                "reference": "86c1c929f0a4b24812e1eb109262fc3372c8e9f2",
                 "shasum": ""
             },
             "require": {
@@ -2693,7 +2695,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-28T13:16:30+00:00"
+            "time": "2019-08-14T12:26:46+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2756,22 +2758,22 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.3.3",
+            "version": "v4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "4e3e39cc485304f807622bdc64938e4633396406"
+                "reference": "28498169dd334095fa981827992f3a24d50fed0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/4e3e39cc485304f807622bdc64938e4633396406",
-                "reference": "4e3e39cc485304f807622bdc64938e4633396406",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/28498169dd334095fa981827992f3a24d50fed0f",
+                "reference": "28498169dd334095fa981827992f3a24d50fed0f",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
                 "symfony/polyfill-mbstring": "~1.0",
-                "symfony/translation-contracts": "^1.1.2"
+                "symfony/translation-contracts": "^1.1.6"
             },
             "conflict": {
                 "symfony/config": "<3.4",
@@ -2828,20 +2830,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-07-18T10:34:59+00:00"
+            "time": "2019-08-26T08:55:16+00:00"
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v1.1.5",
+            "version": "v1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "cb4b18ad7b92a26e83b65dde940fab78339e6f3c"
+                "reference": "325b17c24f3ee23cbecfa63ba809c6d89b5fa04a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/cb4b18ad7b92a26e83b65dde940fab78339e6f3c",
-                "reference": "cb4b18ad7b92a26e83b65dde940fab78339e6f3c",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/325b17c24f3ee23cbecfa63ba809c6d89b5fa04a",
+                "reference": "325b17c24f3ee23cbecfa63ba809c6d89b5fa04a",
                 "shasum": ""
             },
             "require": {
@@ -2885,7 +2887,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-06-13T11:15:36+00:00"
+            "time": "2019-08-02T12:15:04+00:00"
         },
         {
             "name": "true/punycode",
