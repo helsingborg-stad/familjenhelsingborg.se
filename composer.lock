@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0adff096604cc79b7e21db436ec94264",
+    "content-hash": "0b2dd559aadb0bc6ec1cfb5f052133b9",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1351,16 +1351,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "1.55.26",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "e80e049227e71eee7064de79b353de71ed0f3c11"
+                "reference": "bc759d28292912e2ace8f6ec4523d5d6d579f911"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/e80e049227e71eee7064de79b353de71ed0f3c11",
-                "reference": "e80e049227e71eee7064de79b353de71ed0f3c11",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/bc759d28292912e2ace8f6ec4523d5d6d579f911",
+                "reference": "bc759d28292912e2ace8f6ec4523d5d6d579f911",
                 "shasum": ""
             },
             "require": {
@@ -1374,19 +1374,19 @@
             ],
             "authors": [
                 {
-                    "name": "Sebastian Thulin",
-                    "email": "sebastian.thulin@helsingborg.se"
-                },
-                {
                     "name": "Kristoffer Svanmark",
                     "email": "kristoffer.svanmark@knowit.se"
+                },
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
                 },
                 {
                     "name": "Jonatan Hanson",
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "time": "2018-08-15T12:26:28+00:00"
+            "time": "2020-06-30T14:16:02+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -3299,5 +3299,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
