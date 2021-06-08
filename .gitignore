@@ -50,6 +50,7 @@ wp-content/mu-plugins/attachmentDownloader.php
 ######################
 .DS_Store
 .DS_Store?
+.dccache
 ._*
 .Spotlight-V100
 .Trashes
