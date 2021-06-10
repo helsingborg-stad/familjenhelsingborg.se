@@ -48,7 +48,6 @@
         "helsingborg-stad/modularity-rss": ">=1.0.0",
         "helsingborg-stad/modularity-guides": ">=2.0.0",
         "wpackagist-plugin/elasticpress": "2.4",
-        "wpackagist-plugin/varnish-http-purge": "4.2.0",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/wp-nested-pages": "^1.5.4",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
