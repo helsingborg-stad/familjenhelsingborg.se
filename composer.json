@@ -74,7 +74,8 @@
         "wpackagist-plugin/nginx-helper": "^2.2",
         "wpackagist-plugin/wp-sentry-integration": "4.13.0",
         "helsingborg-stad/modularity-recommend": "dev-master",
-        "helsingborg-stad/wpmu-filter-email": "dev-master"
+        "helsingborg-stad/wpmu-filter-email": "dev-master",
+        "helsingborg-stad/modularity-sections": "dev-3.0/develop"
     },
 
     "extra": {
