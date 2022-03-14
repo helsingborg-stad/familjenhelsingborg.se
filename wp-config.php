@@ -24,14 +24,24 @@ require_once __DIR__ . '/config/database.php';
 require_once __DIR__ . '/config/plugins.php';
 require_once __DIR__ . '/config/update.php';
 require_once __DIR__ . '/config/upload.php';
+require_once __DIR__ . '/config/cron.php';
 
 /**
- * Search settings
+ * Ad concfiguration
  *
- * Searchengine configuration. 
+ * Active directory configuration
+ */
+if (file_exists(__DIR__ . '/config/ad.php')) {
+    require_once __DIR__ . '/config/ad.php';
+}
+
+/**
+ * Search concfiguration
+ *
+ * Algolia search configuration.
  */
 if (file_exists(__DIR__ . '/config/search.php')) {
-    require_once 'config/search.php';
+    require_once __DIR__ . '/config/search.php';
 }
 
 /**
@@ -65,6 +75,15 @@ if (file_exists(__DIR__ . '/config/multisite.php')) {
 }
 
 /**
+ * Sentry settings
+ *
+ * Sentry configuration for error reporting.
+ */
+if (file_exists(__DIR__ . '/config/sentry.php')) {
+    require_once 'config/sentry.php';
+}
+
+/**
  * Developer settings
  *
  * You can create a file called "developer.php" in the config dir and
@@ -73,25 +92,6 @@ if (file_exists(__DIR__ . '/config/multisite.php')) {
 if (file_exists(__DIR__ . '/config/developer.php')) {
     require_once __DIR__ . '/config/developer.php';
 }
-
-/**
- * Active directory settings
- *
- * Enable login trough active directory
- */
-if (file_exists(__DIR__ . '/config/ad.php')) {
-    require_once __DIR__ . '/config/ad.php';
-}
-
-/**
- * Google captcha keys
- *
- * Enables support for captcha functionality
- */
-if (file_exists(__DIR__ . '/config/captcha.php')) {
-    require_once __DIR__ . '/config/captcha.php';
-}
-
 
 /* That's all, stop editing! Happy blogging. */
 
