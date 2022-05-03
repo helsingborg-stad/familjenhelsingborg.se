@@ -1455,12 +1455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "a3f1255063d6df1a7bd312e286b46b705258d3be"
+                "reference": "cfa2bce964cd953f60eca17537878ad766d033b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a3f1255063d6df1a7bd312e286b46b705258d3be",
-                "reference": "a3f1255063d6df1a7bd312e286b46b705258d3be",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/cfa2bce964cd953f60eca17537878ad766d033b8",
+                "reference": "cfa2bce964cd953f60eca17537878ad766d033b8",
                 "shasum": ""
             },
             "require": {
@@ -1479,7 +1479,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-05-02T12:46:51+00:00"
+            "time": "2022-05-03T12:31:22+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1826,12 +1826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "08fad5383a0be7f07241e31820518557862310a3"
+                "reference": "d07df8ebeddce4290602932a1e242de61d219b7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/08fad5383a0be7f07241e31820518557862310a3",
-                "reference": "08fad5383a0be7f07241e31820518557862310a3",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d07df8ebeddce4290602932a1e242de61d219b7d",
+                "reference": "d07df8ebeddce4290602932a1e242de61d219b7d",
                 "shasum": ""
             },
             "require": {
@@ -1892,7 +1892,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-05-03T09:17:25+00:00"
+            "time": "2022-05-03T12:31:40+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -3208,16 +3208,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.57.0",
+            "version": "2.58.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78"
+                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4a54375c21eea4811dbd1149fe6b246517554e78",
-                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/97a34af22bde8d0ac20ab34b29d7bfe360902055",
+                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055",
                 "shasum": ""
             },
             "require": {
@@ -3235,7 +3235,8 @@
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12.54 || ^1.0",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.14",
+                "phpunit/php-file-iterator": "^2.0.5",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.23",
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
@@ -3300,7 +3301,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-13T18:13:33+00:00"
+            "time": "2022-04-25T19:31:17+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
