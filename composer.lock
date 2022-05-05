@@ -1222,12 +1222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "6d849cf42519b6d3564e07899baa45f4aeb3d17f"
+                "reference": "905d158f30ccad5653d58b68515d0bae54fa6116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/6d849cf42519b6d3564e07899baa45f4aeb3d17f",
-                "reference": "6d849cf42519b6d3564e07899baa45f4aeb3d17f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/905d158f30ccad5653d58b68515d0bae54fa6116",
+                "reference": "905d158f30ccad5653d58b68515d0bae54fa6116",
                 "shasum": ""
             },
             "require": {
@@ -1251,7 +1251,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-04-22T12:01:08+00:00"
+            "time": "2022-05-05T10:42:26+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1826,12 +1826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "be6b0747221f148669bcd1ea3d39deb1076d0bb4"
+                "reference": "d234963ce861a08dc8eda7646dd99ae5670e878a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/be6b0747221f148669bcd1ea3d39deb1076d0bb4",
-                "reference": "be6b0747221f148669bcd1ea3d39deb1076d0bb4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d234963ce861a08dc8eda7646dd99ae5670e878a",
+                "reference": "d234963ce861a08dc8eda7646dd99ae5670e878a",
                 "shasum": ""
             },
             "require": {
@@ -1892,7 +1892,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-05-04T11:38:01+00:00"
+            "time": "2022-05-05T12:21:08+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
