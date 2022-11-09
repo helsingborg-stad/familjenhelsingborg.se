@@ -12,6 +12,10 @@
     "minimum-stability" : "dev",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/whitespace-se/broken-link-detector"
+        },
+        {
             "type":"composer",
             "url":"https://packagist.org"
         },
@@ -29,7 +33,7 @@
         "helsingborg-stad/lix-calculator": ">=1.0.1",
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "helsingborg-stad/content-scheduler": ">=1.0.0",
-        "helsingborg-stad/broken-link-detector": ">=1.0.0",
+        "helsingborg-stad/broken-link-detector": "dev-whitespace",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
         "helsingborg-stad/api-event-manager-integration": "dev-3.0/develop",
@@ -74,7 +78,8 @@
         "wpackagist-plugin/wp-sentry-integration": "4.13.0",
         "helsingborg-stad/modularity-recommend": "dev-master",
         "helsingborg-stad/wpmu-filter-email": "dev-master",
-        "helsingborg-stad/modularity-sections": "dev-3.0/develop"
+        "helsingborg-stad/modularity-sections": "dev-3.0/develop",
+        "municipio/content-insights-for-editors": "dev-master"
     },
 
     "extra": {
