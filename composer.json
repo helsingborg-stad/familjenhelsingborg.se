@@ -79,7 +79,8 @@
         "helsingborg-stad/modularity-recommend": "dev-master",
         "helsingborg-stad/wpmu-filter-email": "dev-master",
         "helsingborg-stad/modularity-sections": "dev-3.0/develop",
-        "municipio/content-insights-for-editors": "dev-master"
+        "municipio/content-insights-for-editors": "dev-master",
+        "helsingborg-stad/wp-page-for-term": "^1.0"
     },
 
     "extra": {
